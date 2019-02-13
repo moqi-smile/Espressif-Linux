@@ -19,7 +19,7 @@ cd ~/work/tool/
 #切换到工具目录下
 wget https://dl.espressif.com/dl/xtensa-esp32-elf-linux32-1.22.0-80-g6c4433a-5.2.0.tar.gz
 #获取交叉编译链
-sudo tar xvf xtensa-esp32-elf-linux64-1.22.0-80-g6c4433a-5.2.0.tar.gz -C /opt/
+sudo tar xvf xtensa-esp32-elf-linux32-1.22.0-80-g6c4433a-5.2.0.tar.gz -C /opt/
 #将交叉编译链解压到opt文件夹下
 
 cd ~/work/sources/
